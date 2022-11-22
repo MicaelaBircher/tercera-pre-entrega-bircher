@@ -9,12 +9,15 @@ html body {
   font-family: "Roboto" sans-serif;
 }
 
-h1 {
+/* TITULO*/
+.tituloPrincipal {
   background-color: bisque;
   text-align: center;
+  justify-content: space-between;
   color: black;
   padding: 40px;
   margin: 65px 5px 10px 5px;
+  justify-content: space-between;
 }
 
 /* Subtitulo */
@@ -39,7 +42,7 @@ li {
   padding: 8px;
   margin: 4px;
   border-radius: 5px;
-  border: 1px dotted crimson;
+  border: solid 1px crimson;
 }
 
 a {
@@ -48,13 +51,13 @@ a {
 }
 
 /* Titulo de contenido */
-h2 {
+.h2 {
   background-color: bisque;
   padding: 4px;
   margin: 90px 200px 30px 30px;
   width: 190px;
   text-align: center;
-  border: 1px solid crimson;
+  border: solid 1px crimson;
 }
 
 /* PARRÁFO */
@@ -64,7 +67,7 @@ h2 {
 }
 
 /* Derechos */
-h6 {
+.footer {
   margin: 60px 5px 30px 600px;
   color: black;
 }
@@ -76,25 +79,20 @@ h6 {
   font-size: 18px;
 }
 
-span {
+.span {
   display: block;
   background-color: bisque;
   padding: 15px;
   border-radius: 5px;
-  border: 1px solid crimson;
+  border: solid 1px crimson;
   font-size: 10px;
   text-align: center;
   margin: 10px 200px 10px 200px;
 }
 
-/*.carousel {
-  margin: auto;
-  width: 500px;
-  height: 500px;
-}*/
 /* MEDIA */
 @media (max-width: 600px) {
-  .contenedorHeader {
+  .encabezado {
     color: white;
   }
   .div {
@@ -118,7 +116,7 @@ span {
   }
 }
 @media (min-width: 601px) {
-  .contenedorHeader {
+  .encabezado {
     color: black;
   }
   .div {

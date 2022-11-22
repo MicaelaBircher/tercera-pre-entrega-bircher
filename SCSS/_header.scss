@@ -1,9 +1,21 @@
-h1 {
-    background-color: bisque;
+@mixin anclas {
+    color: $color-fuentes ;
+    text-decoration: none;
+}
+
+
+
+
+/* TITULO*/ 
+
+.tituloPrincipal {
+    background-color: $color-principal ;
     text-align: center;
-    color: black;
+    justify-content: space-between;
+    color: $color-fuentes ;
     padding: 40px;
     margin: 65px 5px 10px 5px;
+    justify-content: space-between;
   }
   
   /* Subtitulo */
@@ -26,27 +38,26 @@ h1 {
   
   li {
     display: inline;
-    background-color: bisque;
+    background-color: $color-principal ;
     padding: 8px;
     margin: 4px;
     border-radius: 5px;
-    border: 1px dotted crimson;
+    border: $border;
   }
   
   a {
-    color: black;
-    text-decoration: none;
+    @include anclas ;
   }
   
   /* Titulo de contenido */
   
-  h2 {
-    background-color: bisque;
+  .h2 {
+    background-color: $color-principal;
     padding: 4px;
     margin: 90px 200px 30px 30px;
     width: 190px;
     text-align: center;
-    border: 1px solid crimson;
+    border: $border ;
   }
   
   /* PARRÁFO */
@@ -58,9 +69,9 @@ h1 {
   
   /* Derechos */
   
-  h6 {
+  .footer {
     margin: 60px 5px 30px 600px;
-    color: black;
+    color: $color-fuentes ;
   }
   
   /* REDES SOCIALES */
@@ -71,27 +82,21 @@ h1 {
     font-size: 18px;
   }
   
-  span {
+  .span {
     display: block;
-    background-color: bisque;
+    background-color: $color-principal;
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid crimson;
+    border: $border;
     font-size: 10px;
     text-align: center;
     margin: 10px 200px 10px 200px;
   }
   
-  /*.carousel {
-    margin: auto;
-    width: 500px;
-    height: 500px;
-  }*/
-  
   /* MEDIA */
   
   @media (max-width: 600px) {
-    .contenedorHeader {
+    .encabezado {
         color: white;
     }
     
@@ -121,16 +126,16 @@ h1 {
   }
   
   @media (min-width: 601px) {
-    .contenedorHeader {
+    .encabezado {
         color: black;
     }
     
     .div {
-      color: black;
+      color: $color-fuentes;
     }
   
     .footer {
-      color: black;
+      color: $color-fuentes;
       margin: 10px 40px 10px 40px;
     }
   
