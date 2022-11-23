@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:ital,wght@1,300&display=swap"); /*  ESTILOS GENERALES */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&family=Titillium+Web:ital,wght@1,300&display=swap"); /*  ESTILOS GENERALES */
 html {
   font-size: 75%;
 }
@@ -10,7 +10,10 @@ html body {
 }
 
 /* TITULO*/
-.tituloPrincipal {
+.encabezado {
+  color: black;
+}
+.encabezado .tituloPrincipal {
   background-color: bisque;
   text-align: center;
   justify-content: space-between;
@@ -19,15 +22,11 @@ html body {
   margin: 65px 5px 10px 5px;
   justify-content: space-between;
 }
-
-/* Subtitulo */
-h3 {
+.encabezado h3 {
   text-align: center;
   color: white;
 }
-
-/* Lista */
-.lista {
+.encabezado .lista {
   text-align: start;
   position: absolute;
   top: 15px;
@@ -35,8 +34,7 @@ h3 {
   padding: 4px;
   margin: auto;
 }
-
-li {
+.encabezado li {
   display: inline;
   background-color: bisque;
   padding: 8px;
@@ -44,8 +42,7 @@ li {
   border-radius: 5px;
   border: solid 1px crimson;
 }
-
-a {
+.encabezado a {
   color: black;
   text-decoration: none;
 }
@@ -70,6 +67,14 @@ a {
 .footer {
   margin: 60px 5px 30px 600px;
   color: black;
+  font-size: 18px;
+}
+
+/* CONTACTO */
+.div {
+  margin: 15px;
+  color: black;
+  font-size: 18px;
 }
 
 /* REDES SOCIALES */
