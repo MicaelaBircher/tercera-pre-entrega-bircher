@@ -62,7 +62,7 @@ html body {
 /* PÁRRAFO */
 .parrafoLorem {
   padding: 10px;
-  margin: 30px 5px 60px 5px;
+  margin: 5px 5px 10px 5px;
 }
 
 /* DRECHOS AUTOR */
@@ -97,6 +97,7 @@ html body {
   margin: 10px 200px 10px 200px;
 }
 
+/* VIDEO*/
 /* MEDIA MOBILE */
 @media (max-width: 600px) {
   .encabezado {
@@ -116,10 +117,10 @@ html body {
   }
   .span {
     padding: 15px;
-    margin: 10px 50px 10px 100px;
+    margin: 10px 50px 10px 20px;
   }
   .redesWeb {
-    margin: 10px 50px 10px 100px;
+    margin: 10px 50px 10px 20px;
   }
 }
 /*  MEDIA TABLET */
@@ -137,10 +138,10 @@ html body {
   .h2 {
     color: black;
     text-align: center;
-    margin: 90px 200px 30px 50px;
+    margin: 90px 200px 30px 285px;
   }
   .redesWeb {
-    margin: 10px 200px 10px 290px;
+    margin: 10px 200px 10px 210px;
   }
 }
 /* MEDIA DESKTOP*/
@@ -169,9 +170,9 @@ html body {
   display: inline-block;
 }
 .hero .parrafoLorem {
-  color: black;
+  color: white;
   margin-bottom: 30px;
-  font-size: 19px;
+  font-size: 30px;
 }
 .hero .contacto {
   text-decoration: none;
@@ -199,7 +200,7 @@ html body {
 }
 .galeria:hover {
   transform: scale(1.03);
-  filter: grayscale(100%);
+  filter: grayscale(40%);
 }
 
 /*# sourceMappingURL=estilo.css.map */
