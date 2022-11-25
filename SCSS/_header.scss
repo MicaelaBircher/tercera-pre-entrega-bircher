@@ -3,7 +3,7 @@
     text-decoration: none;
 }
 
-/* TITULO*/ 
+/* TITULO Y DISEÑO WEB*/ 
 .encabezado {
   color: black;
 
@@ -14,7 +14,6 @@
       color: $color-fuentes ;
       padding: 40px;
       margin: 65px 5px 10px 5px;
-      justify-content: space-between;
     }
 
     h3 {
@@ -42,11 +41,15 @@
 
     a {
       @include anclas ;
+      transition: all 0.5s ease ;
+      &:hover {
+        color: $color-fuentes-secundarios ;
+      }
     }
 }
  
 
-  /* Titulo de contenido */
+  /* TITULO DEL CONTENIDO */
   
   .h2 {
     background-color: $color-principal;
@@ -59,14 +62,14 @@
   }
   
   
-  /* PARRÁFO */
+  /* PÁRRAFO */
   
   .parrafoLorem {
     padding: 10px;
     margin: 30px 5px 60px 5px;
   }
   
-  /* Derechos */
+  /* DRECHOS AUTOR */
   
   .footer {
     margin: 60px 5px 30px 600px;
@@ -104,7 +107,7 @@
   }
   
 
-  /* MEDIA */
+  /* MEDIA MOBILE */
   
   @media (max-width: 600px) {
     .encabezado {
@@ -136,6 +139,8 @@
     }
   }
   
+  /*  MEDIA TABLET */
+
   @media (min-width: 601px) {
     .encabezado {
         color: black;
@@ -143,6 +148,7 @@
     
     .div {
       color: $color-fuentes;
+      
     }
   
     .footer {
@@ -161,6 +167,9 @@
     }
   }
   
+
+  /* MEDIA DESKTOP*/ 
+
   @media (min-width: 1024px) {
      
     .div {
@@ -182,3 +191,8 @@
       margin: 10px 200px 10px 200px;
     }
   }
+
+
+
+
+  
