@@ -170,8 +170,7 @@ html body {
   position: relative;
   display: inline-block;
 }
-
-.hero &::before {
+.hero::before {
   content: "";
   position: absolute;
   height: 30%;
@@ -181,14 +180,12 @@ html body {
   border-radius: 8px;
   z-index: -1;
 }
-
-.parrafoLorem {
-  color: .hero .parrafoLorem color-fuentes;
+.hero .parrafoLorem {
+  color: black;
   margin-bottom: 30px;
   font-size: 19px;
 }
- 
-.contacto {
+.hero .contacto {
   text-decoration: none;
   border: solid 1px crimson;
   background-color: bisque;
@@ -199,9 +196,8 @@ html body {
   text-decoration: none;
   transition: all 0.5s ease;
 }
-.hero .contacto
-&:hover {
-  color: color-fuentes-secundarios;
+.hero .contacto:hover {
+  color: darksalmon;
 }
 
 /*# sourceMappingURL=estilo.css.map */
