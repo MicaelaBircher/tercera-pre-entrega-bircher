@@ -54,8 +54,7 @@ html body {
 .h2 {
   background-color: bisque;
   padding: 4px;
-  margin: 90px 200px 30px 30px;
-  width: 190px;
+  width: 250px;
   text-align: center;
   border: solid 1px crimson;
 }
@@ -156,7 +155,7 @@ html body {
   .h2 {
     color: black;
     text-align: center;
-    margin: 90px 200px 30px 50px;
+    margin: 90px 200px 30px 625px;
   }
   .redesWeb {
     margin: 10px 200px 10px 200px;
@@ -187,6 +186,20 @@ html body {
 }
 .hero .contacto:hover {
   color: darksalmon;
+}
+
+/* GALERIA */
+.galeria {
+  height: 25rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  transition: all 0.3s ease;
+  filter: none;
+}
+.galeria:hover {
+  transform: scale(1.03);
+  filter: grayscale(100%);
 }
 
 /*# sourceMappingURL=estilo.css.map */
